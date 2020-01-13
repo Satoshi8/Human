@@ -6,7 +6,7 @@ class Human:Animal,Thinkable {
 
     var name: String
     var age: Int
-}
+
 
     constructor(){
     this.name = ""
@@ -14,5 +14,6 @@ class Human:Animal,Thinkable {
     }
    override fun say(){
         Log.d("kotlintest", this.name + "("  + this.age + "歳)" )
-       
+
     }
+}
