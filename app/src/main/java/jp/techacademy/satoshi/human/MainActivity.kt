@@ -12,9 +12,6 @@ class MainActivity : AppCompatActivity() {
 
         val human = Human("サトシ",22)
         human.say()
-        Log.d("kotlintest","私の名前は" + human.name + "です。")
-        Log.d("kotlintest","年は" + human.age + "です。")
-
-
+        human.think()
     }
 }
