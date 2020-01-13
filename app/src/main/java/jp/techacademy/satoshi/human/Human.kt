@@ -6,6 +6,7 @@ class Human:Animal,Thinkable {
 
     var name: String
     var age: Int
+    var hobby: String
 
 
     constructor(){
