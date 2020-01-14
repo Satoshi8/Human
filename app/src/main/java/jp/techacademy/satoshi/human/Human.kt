@@ -10,7 +10,7 @@ open class Human:Animal,Thinkable {
         this.hobby = hobby
     }
    override fun say(){
-        Log.d("kotlintest", "私の名前は"+ this.name + "です。" + "年は"+this.age + "です。" )
+        Log.d("kotlintest", "私の名前は"+ this.name + "です。" + "年は"+this.age + "歳です。" )
    }
 
     override  fun think(){
