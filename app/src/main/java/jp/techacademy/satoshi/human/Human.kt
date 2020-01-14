@@ -2,19 +2,16 @@ package jp.techacademy.satoshi.human
 
 import android.util.Log
 
-class Human:Animal,Thinkable {
-
-    var name: String
-    var age: Int
-    var hobby: String
+open class Human:Animal,Thinkable {
 
 
-    constructor(){
-    this.name = ""
-    this.age = 0
+    constructor(name:String, age: Int, hobby: String): super(name,age,hobby){
     }
    override fun say(){
-        Log.d("kotlintest", this.name + "("  + this.age + "歳)" )
+        Log.d("kotlintest", "私の名前は"+ this.name + "です。" + "年は"+this.age + "です。" )
+   }
 
+    override  fun think(){
+        Log.d("kotlintest","私は"+ this.hobby + "について考える。" )
     }
 }
