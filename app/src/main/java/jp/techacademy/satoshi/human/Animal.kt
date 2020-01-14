@@ -6,12 +6,12 @@ abstract class Animal{
 
     var name = String
     var age = Int
-    var hobby = String
 
-    constructor(name: String, age: Int, hobby: String){
-        this.name = name
-        this.age = age
-        this.hobby = hobby
+
+    constructor(name: String, age: Int){
+        var name :String = ""
+        var age :Int = 0
+
     }
     abstract fun say()
 
